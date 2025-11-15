@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void)
+int main(void)//计算各数值类型所占字节数
 {
     printf("Type int has a size of %zd bytes.\n",sizeof(int));
     printf("Type float has a size of %zd bytes.\n",sizeof(float));
